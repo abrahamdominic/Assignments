@@ -50,19 +50,19 @@ the user is redirected to the success page.
 
 Clone the project
 
-  git clone https://github.com/abrahamdominic/assignment.git
+  git clone https://github.com/abrahamdominic/assignments.git
 
 
 Go to the project directory
   ```bash
   cd portfolio 
   ```
-  https://github.com/abrahamdominic/assignment/tree/week3/portfolio
+  https://github.com/abrahamdominic/assignments/tree/week3/portfolio
   
   ```bash
   cd registration
   ```
-  https://github.com/abrahamdominic/assignment/tree/week3/registration_page
+  https://github.com/abrahamdominic/assignments/tree/week3/registration_page
 
 ## Design
 
