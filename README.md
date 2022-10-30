@@ -15,19 +15,19 @@ Secondly, i recreate a design using CSS Grid Layout
 
 Clone the project
 
-  git clone https://github.com/abrahamdominic/assignment.git
+  git clone https://github.com/abrahamdominic/assignments.git
 
 
 Go to the project directory
 
 For songcrud project
 ```bash
-cd https://github.com/abrahamdominic/assignment/tree/week4/Songcrud
+cd https://github.com/abrahamdominic/assignments/tree/week4/Songcrud
 ```
 
 For flexbox project
 ```bash
-   cd https://github.com/abrahamdominic/assignment/tree/week4/Week4_flexbox
+   cd https://github.com/abrahamdominic/assignments/tree/week4/Week4_flexbox
 ```
 
 ## Design
