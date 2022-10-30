@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/main_styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/animate.css" rel="stylesheet" type="text/css" />
+    <title>Registration Page</title>
+  </head>
+  <body style="background-color:#fafafa;">
+    <div id="container">
+    <div id="heading2">
+      <h2>Welcome to Abraham Cyber Tech</h2>
+    </div>
+    <div class="col-5">Welcome back, Guest !</div><a href="register.html" class="link_btn"> Logout</a>
+    <div class="row-3">
+          <div class="col-6 success">
+              You are Login Successful !
+          </div>
+    </div>
+    </div>
+    <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+      //new WOW().init();
+      var wow = new WOW({
+        boxClass: "wow", // animated element css class (default is wow)
+        animateClass: "animated", // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function (box) {},
+        scrollContainer: null,
+      });
+      wow.init();
+    </script>
+  </body>
+</html>
