@@ -1,0 +1,114 @@
+/* @font-face {
+    font-family: webfont;
+    src: url('https://fonts.google.com/specimen/Fasthand');
+    src: url(Fasthand-Regular.ttf); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    height: 60vh;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .7), 0 8px 16px rgba(0, 0, 0, .5);
+}
+
+.img-icons {
+    padding: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    padding: 20px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 20px;
+}
+
+.flex-item1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0 0 7px;
+}
+
+.flex-item2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.flex-item3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 7px 7px 0;
+}
+
+#btn-more {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 95%);
+    margin: 50px 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #666;
+}
+
+#btn-more:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    transition: .8s ease-in-out;
+}
+
+#goto {
+    margin-bottom: 50px;
+}
+
+.btn-link {
+    position: relative;
+    top: 0;
+    padding: 10px 20px;
+    background-color: #3a7206;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    opacity: .6;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        position: absolute;
+        top: 50%;
+    }
+
+    .flex-container {
+        width: 360px;
+        flex-flow: row wrap;
+    }
+
+    .flex-item1,
+    .flex-item3 {
+        border-radius: 0;
+    }
+
+}

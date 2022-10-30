@@ -1,0 +1,75 @@
+/***************************** THE GRID LAYOUT VIEWS *********************/
+body {
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    background: #000033;
+}
+
+
+.item1 {
+    grid-area: plot1;
+    background-color: #008000;
+}
+
+.item2 {
+    grid-area: plot2;
+    background-color: #ff3300
+}
+
+.item3 {
+    grid-area: plot3;
+    background-color: #e68a00;
+}
+
+.item4 {
+    grid-area: plot4;
+    background-color: #0080ff;
+}
+
+.item5 {
+    grid-area: plot5;
+    background-color: #0080ff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'plot1 plot1 plot1 plot1 plot2 plot2'
+        'plot1 plot1 plot1 plot1 plot2 plot2'
+        'plot3 plot3 plot3 plot4 plot4 plot4'
+        'plot3 plot3 plot3 plot5 plot5 plot5';
+    gap: 10px;
+    padding: 10px;
+    height: 60vh;
+}
+
+#goto {
+    margin-bottom: 50px;
+}
+
+.btn-link {
+    position: relative;
+    top: 0;
+    padding: 10px 20px;
+    background-color: #0080ff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    opacity: .6;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .grid-container {
+        height: 50vh;
+    }
+
+}
