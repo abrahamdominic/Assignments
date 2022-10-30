@@ -20,13 +20,13 @@ And i specify the foreignkey relationship between the models.
 Clone the project
 
 ```bash
-  git clone https://github.com/abrahamdominic/assignment.git
+  git clone https://github.com/abrahamdominic/assignments.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd https://github.com/abrahamdominic/assignment/tree/week5/songcrud
+  cd https://github.com/abrahamdominic/assignments/tree/week5/songcrud
 ```
 
 Install dependencies
